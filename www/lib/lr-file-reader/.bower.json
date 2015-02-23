@@ -1,0 +1,39 @@
+{
+  "name": "lrFileReader",
+  "main": "lrFileReader.js",
+  "homepage": "https://github.com/lorenzofox3/lrFileReader",
+  "authors": [
+    "lorenzofox3 <laurent34azerty@gmail.com>"
+  ],
+  "description": "angualr wrapper around FileReader API",
+  "keywords": [
+    "angular",
+    "FileReader",
+    "readAsDataURL"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "example/*",
+    "karma.conf.js",
+    "test.js"
+  ],
+  "dependencies": {
+    "angular-mocks": "~1.2.21",
+    "angular": "~1.2.21"
+  },
+  "_release": "01ed2329fa",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "01ed2329fa90fa17578c7c0db64e9d48b0686db4"
+  },
+  "_source": "git://github.com/lorenzofox3/lrFileReader.git",
+  "_target": "*",
+  "_originalSource": "lr-file-reader",
+  "_direct": true
+}

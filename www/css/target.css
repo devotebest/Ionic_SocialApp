@@ -1,0 +1,96 @@
+.list .item.item-accordion {
+    line-height: 53px;
+    height:59px;
+    padding-top: 0;
+    padding-bottom: 0;
+    transition: 0.09s all linear;
+    min-height:0;
+}
+.list .item.item-accordion.ng-hide {
+    line-height: 0px;
+    height:0px !important;
+}
+.list .item.item-accordion.ng-hide-add,
+.list .item.item-accordion.ng-hide-remove {
+    display: block !important;
+}
+
+.target-list ion-item{
+    text-align:center;
+}
+
+.target-list ion-item .icon{
+    font-size:2.2rem;
+   /* position: absolute;
+    right:40px;
+    top:50%;
+    margin-top:-1.1rem;*/
+}
+.target-list ion-item.button{
+    margin:0;
+    border-radius:0;
+    border-right:none;
+    border-left:none;
+    margin-top:-1px;
+}
+
+/*#yes_no_toggler .track{
+    width:66px;
+}
+#yes_no_toggler .track .handle{
+    width:39px;
+    top:50%;
+    margin-top:-14px;
+    left:3px;
+}
+
+#yes_no_toggler .track:before{
+    content: "Yes";
+    line-height: 28px;
+    padding-left: 1px;
+    font-size: 0.8rem;
+    color:white;
+}
+#yes_no_toggler .track:after{
+    content: "No";
+    line-height: 28px;
+    padding-left: 21px;
+    font-size:0.8rem;
+}
+*/
+#yes_no_toggler label.toggle{
+    width:56px;
+    padding:0;
+    top:50%;
+    margin-top:-16px;
+    left:50%;
+    margin-left:-33px;
+    cursor:pointer;
+}
+#yes_no_toggler label.toggle .handle{
+    margin-top:-5px;
+    margin-left:-5px;
+}
+#yes_no_toggler{
+    border:none;
+}
+
+#target_screen_wrapper{
+    height:100%;
+    overflow:auto;
+    padding-bottom:170px;
+}
+
+#target_footer{
+    padding: 0;
+    border-top: solid 1px #ccc;
+}
+#target_footer .icon{
+    font-size:2.8rem
+}
+
+#target_footer .button-large{
+    min-height:68px;
+    font-weight:bold;
+    margin-bottom:0;
+}

@@ -1,0 +1,8 @@
+question-posted-badge h4.category-information{
+    text-align: left;
+    font-size: 0.7rem;
+    padding-left: 25px;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    line-height: 20px;
+}

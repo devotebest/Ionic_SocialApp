@@ -1,0 +1,83 @@
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (orientation : landscape) {
+    html{
+        height:100%;
+    }
+    body{
+        height:100%;
+        padding-top:2.5%!important;
+        padding-bottom: 2.5%!important;
+    }
+    body>ion-nav-view{
+        max-width: 500px;
+        display: block;
+        margin: auto;
+        position: relative !important;
+        height: 100%;
+        position: relative;
+    }
+
+    body>ion-nav-view>ion-side-menus.view{
+        left: 0;
+        top: 0;
+        bottom: 0px;
+        right: 0px;
+        background-color: transparent;
+        background: black;
+        width:auto;
+        height:auto;
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 768px) {
+    html{
+        height:100%;
+    }
+    body{
+        height:100%;
+        padding-top:2.5%!important;
+        padding-bottom: 2.5%!important;
+
+        background-image: url('../img/webapp_background.jpg');
+        background-position: top center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: transparent;
+    }
+    body>ion-nav-view{
+        max-width: 500px;
+        display: block;
+        margin: auto;
+        position: relative !important;
+        height: 100%;
+
+        position: relative;
+
+    }
+
+    body>ion-nav-view>ion-side-menus.view{
+        left: 0;
+        top: 0;
+        bottom: 0px;
+        right: 0;
+        background-color: transparent;
+        background: black;
+        width:auto;
+        height:auto;
+    }
+}
+
+@media only screen
+and (max-height : 400px) {
+    .auth-buttons{
+        display:none!important;
+    }
+
+    .dark-bg.flip-navigation{
+        margin-bottom:0!important
+    }
+}

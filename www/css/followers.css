@@ -1,0 +1,21 @@
+.follower-item .avatar-holder{
+    display:inline-block !important;
+    vertical-align: middle;
+}
+
+
+.filter-input-box::-webkit-input-placeholder {
+    color: currentColor;
+}
+
+.filter-input-box:-moz-placeholder { /* Firefox 18- */
+    color: currentColor;
+}
+
+.filter-input-box::-moz-placeholder {  /* Firefox 19+ */
+    color: currentColor;
+}
+
+.filter-input-box:-ms-input-placeholder {
+    color: currentColor;
+}

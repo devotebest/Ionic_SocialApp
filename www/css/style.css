@@ -1,0 +1,443 @@
+/* Empty. Add your own CSS if you like */
+
+.col-offset-5{
+    margin-left:5%;
+}
+.col-offset-15{
+    margin-left:15%;
+}
+
+.question-list-item .item-content{
+    margin: 0;
+    padding: 0;
+}
+
+.answer-submit-form button.col{
+   display:inline-block;
+
+}
+
+.answer-submit-form button.col-25{
+    margin-top:50px;
+}
+
+.answer-submit-form .question-hero-container{
+    position:relative;
+}
+.answer-submit-form .question-hero-container img{
+    width: 100%;
+}
+.answer-submit-form .question-hero-container .question-title-banner.row{
+    font-size:1.3rem;
+    top: 50%;
+    margin-top: -3rem;
+    text-align: center;
+    box-shadow: none;
+}
+
+.question-hero-container{
+    flex: 1 auto;
+    line-height:0;
+    border:none;
+}
+.question-hero-container.col{
+    display:inline-block;
+    padding:0
+}
+.question-hero-container.col.question-image-choice{
+    float:left;
+    line-height: 0;
+    border:none;
+}
+
+.bar.question-title{
+    position:static;
+}
+
+.button-full.question-text-choice{
+    margin:0;
+    margin-top:1px;
+
+}
+
+.question-image-choice .checked-indicator, .question-text-choice .checked-indicator{
+    position:absolute;
+    display:inline-block;
+    font-size:1.2rem;
+    background-color:rgba(0,0,0,0.6);
+    color:white;
+    top:50%;
+    margin-top: -0.7rem;
+    vertical-align: middle;
+    right:5px;
+    border:none;
+    width:30%;
+
+}
+
+.question-image-choice.add-button img{
+    visibility:hidden;
+}
+.question-image-choice.add-button button.button{
+    position:absolute;
+    height:100%;
+    width:100%;
+    top:50%;
+    left:0;
+    margin:0;
+    margin-top:-20px;
+    line-height: 40px;
+}
+
+.question-image-choice .checked-indicator{
+    top:10px;
+}
+.question-text-choice .checked-indicator{
+    top:50%;
+    margin-top: -0.7rem;
+}
+
+
+/*ionic like*/
+.button-like {
+    border-color: #b2b2b2;
+    background-color: #f8f8f8;
+    color: #444;
+    position: relative;
+
+    min-width: 52px;
+    min-height: 47px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    vertical-align: middle;
+    text-align: center;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    line-height: 42px;
+}
+
+.button-like.button-block, .button-like.button-full {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button-like .button-stable{
+    border-color: #b2b2b2;
+    background-color: #f8f8f8;
+    color: #444;
+}
+
+.button.add-button{
+    font-size: 1.7rem;
+}
+
+.bar .title textarea{
+    background-color: rgba(255,255,255,0);
+    border-color:transparent;
+    text-align:center;
+    color:white;
+}
+
+.question-text-choice textarea{
+    font-size:1.7rem;
+    text-align:center;
+    background-color: rgba(255,255,255,0);
+    padding-right:25px;
+    padding-left:25px;
+    resize: none;
+}
+
+.option-remove{
+    position:absolute;
+    top:10px;
+    right: 17px;
+    font-size:1.3rem;
+    cursor: pointer;
+    background-color:white;
+    border:solid 1px white;
+    border-radius:100%;
+}
+
+.option-remove.ion-close-circled{
+    width:14px;
+    height:14px;
+    background-color:white;
+}
+
+.option-remove.ion-close-circled:before{
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-top: -9px;
+    margin-left: -9px;
+}
+
+.question-choice.button-icon .option-remove.ion-close-circled:before{
+   margin-top: -25px;
+    margin-left: -14px;
+}
+
+.question-list-item.button{
+    color:gray !important;
+    background-color: rgba(255,255,255,0) !important;
+    border-color:transparent !important;
+    border-bottom-color: gray !important;
+    box-shadow: none !important;
+
+}
+
+
+
+.image-handler.bar{
+    position: static;
+}
+
+.question-hero-container .image-handler.bar{
+    position: absolute;
+    bottom:0;
+    top:auto;
+    background: none;
+}
+.question-hero-container .image-handler.bar .button i:before{
+    text-shadow: 1px 0 0 white;
+
+}
+
+.categories-menu{
+    height: 100%;
+    background-color: white;
+    z-index: 2;
+    right: 0;
+    position: absolute;
+    width: 350px;
+    max-width:85%;
+    box-shadow: -1px 0 20px -5px #cdcdcd;
+    padding-top:100px;
+}
+.categories-menu .bar{
+    margin-top:44px;
+}
+.categories-menu ion-list .list{
+    height: 100%;
+    overflow: auto;
+    padding-bottom: 44px;
+    background-color:#bbbbbb;
+}
+.categories-menu ion-list .list .item.item-radio .item-content{
+
+    background-color:#bbbbbb;
+}
+.categories-menu ion-list .list .item.item-radio .item-content .category-icon{
+    width:30px;
+    height:30px;
+}
+.categories-menu ion-list .list .item.item-radio .item-content .category-icon,
+.categories-menu ion-list .list .item.item-radio .item-content span{
+    vertical-align:middle;
+    margin-left:2px;
+    margin-right:10px;
+}
+
+.categories-menu.ng-hide-add,
+.categories-menu.ng-hide-remove{
+    display: block !important;
+    transition-property:all;
+    transition-duration:200ms;
+    transition-timing-function: inherit;
+}
+.categories-menu.ng-hide-add{
+    transform: translateX(0);
+}
+.categories-menu.ng-hide-add-active,
+.categories-menu.ng-hide-remove{
+    transform: translateX(100%);
+}
+
+.categories-menu.ng-hide-remove-active{
+    transform: translateX(0);
+}
+
+.circular-icons-style:before{
+    border-radius: 50% !important;
+    border: solid 1px #999 !important;
+    width: 2rem !important;
+    text-align: center !important;
+    font-size: 2rem !important;
+    line-height:2rem !important;
+    vertical-align:middle;
+    padding:0 !important;
+    color:#999;
+    font-weight:normal;
+
+}
+.ion-android-share.circular-icons-style:before{
+    font-size: 1.4rem !important;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+
+ion-nav-bar .button .button[messages-count]{
+    display: inline-block;
+    padding: 3px;
+    padding-right: 4px;
+    position: relative;
+    line-height: 1.1em;
+    min-height: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    min-width: 25px;
+}
+ion-nav-bar .button .button[messages-count]:before{
+    width: 0;
+    border-width: 7px;
+    height: 0;
+    border-style: solid;
+    position: absolute;
+    top: 50%;
+    margin-top: -7px;
+    right: 100%;
+    border-color: transparent;
+    border-right-color: inherit;
+    content: ' ';
+}
+/*
+ion-view.pane>ion-content.scroll-content.ionic-scroll.has-header{
+    padding-bottom: 40px;
+}
+*/
+#terms_screen>.scroll-content{
+    padding-bottom:0 !important;
+}
+#terms_screen>.scroll-content>.scroll{
+    height:100%;
+}
+/*html,body{
+    height:100%;
+}
+body>ion-nav-view{
+    max-width: 500px;
+    display: block;
+    margin: auto;
+    position: relative;
+    height: 100%;
+    background-image: url('../img/simulators/iphone6.png');
+    background-position: top center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: transparent;
+}
+
+body>ion-nav-view>ion-side-menus.view{
+    left: 21px;
+    top: 79px;
+    bottom: 119px;
+    right: 20px;
+    background-color: transparent;
+    background: black;
+    width:auto;
+    height:auto;
+}*/
+
+.do-not-animate.ng-hide-add,
+.do-not-animate.ng-hide-remove{
+    display:none !important;
+    transition-delay: 0s;
+    transition-duration: 0s;
+
+}
+
+.col-15 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 20%;
+    -moz-box-flex: 0;
+    -moz-flex: 0 0 15%;
+    -ms-flex: 0 0 15%;
+    flex: 0 0 15%;
+    max-width: 15%;
+}
+
+.list.question-type-list .item.question-type-list-item i:first-child:before{
+    font-size:4rem;
+    color:#b2b2b2;
+}
+.list.question-type-list .item.question-type-list-item a:last-child:before{
+    font-size:3rem;
+    color:#b2b2b2;
+    width:3rem;
+    text-decoration: none;
+}
+.list.question-type-list .item.question-type-list-item a:last-child{
+    text-decoration: none;
+}
+.list.question-type-list .item.question-type-list-item a{
+    font-size:2rem;
+}
+.list.question-type-list .item.question-type-list-item.active,
+.list.question-type-list .item.question-type-list-item.activated
+{
+    border-color: #1b6698 !important;
+    background-color: #2691d9 !important;
+    color: #fff;
+}
+
+
+
+
+.profile-question-list-item.row + .profile-question-list-item.row {
+    margin-top: 0px;
+    padding-top: 0;
+    /* margin-bottom: 3px; */
+}
+.follower-item.row + .follower-item.row,.following-item.row + .following-item.row {
+    margin-top: 0px;
+    padding-top: 0;
+    /* margin-bottom: 3px; */
+}
+
+.sharing-bar a{
+    text-align:center;
+}
+.sharing-bar a span{
+    font-size:3rem;
+}
+.sharing-bar a span[class*="facebook"]{
+    color:darkblue;
+}
+.sharing-bar a span[class*="twitter"]{
+    color:#145fd7;
+}
+.sharing-bar a span[class*="google"]{
+    color:#d4081a;
+}
+
+.button.button-clear.button-positive-imposed{
+    border-color: #1b6698;
+    background-color: #2691d9;
+    color: #fff;
+}
+
+body>ion-nav-view.ng-cloak{
+    background-color: #2691d9;
+    background-image: url('../img/logos/statisfy.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50%;
+    display:block !important;
+}
+
+
+.nav-bar-title a{
+    display: inline-block;
+    line-height: 0;
+    height: 100%;
+}
+
+.nav-bar-title img{
+    line-height: 0;
+    padding: 0;
+    height: 100%;
+}

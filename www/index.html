@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+      <meta name="HandheldFriendly" content="true" />
+    <title></title>
+
+    <!--<link href="lib/ionic/css/ionic.css" rel="stylesheet">-->
+    <link href="lib/fontawesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/question.css" rel="stylesheet">
+    <link href="css/feed.css" rel="stylesheet">
+    <link href="css/answer.css" rel="stylesheet">
+    <link href="css/progress_bar.css" rel="stylesheet">
+    <link href="css/target.css" rel="stylesheet">
+    <link href="css/stats.css" rel="stylesheet">
+    <link href="css/profile.css" rel="stylesheet">
+    <link href="css/notifications.css" rel="stylesheet">
+    <link href="css/followers.css" rel="stylesheet">
+    <link href="css/auth.css" rel="stylesheet">
+    <link href="css/cropit.css" rel="stylesheet">
+    <link href="css/posted_question_badge.css" rel="stylesheet">
+    <link href="lib/statisfy/icons/styles.css"  rel="stylesheet">
+    <link href="css/media_queries.css"  rel="stylesheet">
+	
+	
+	<link href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" rel="stylesheet">
+		 
+	  
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above-->
+    <link href="css/ionic.app.css" rel="stylesheet">
+
+	
+	<script src="lib/jquery-1.9.1.js"></script>	
+	<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+	
+	
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.min.js"></script>
+
+      <!--  <script src="lib/angular/angular.min.js"></script>
+        <script src="lib/ionic/js/ionic-angular.min.js"></script>
+
+        <script src="lib/ionic/js/ionic.min.js"></script>-->
+
+        <script src="lib/lr-file-reader/lrFileReader.js"></script>
+  <!--      <script src="lib/angular-animate/angular-animate.min.js"></script>
+        <script src="lib/angular-sanitize/angular-sanitize.min.js"></script>
+        <script src="lib/ui-router/release/angular-ui-router.min.js"></script>-->
+        <script src="lib/collide/collide.js"></script>
+        <script src="lib/ng-device-detector/ng-device-detector.js"></script>
+        <script src="lib/angular-file-model/angular-file-model.js"></script>
+        <script src="lib/ngstorage/ngStorage.min.js"></script>
+        <script src="lib/angular-elastic/elastic.js"></script>
+
+        <script src="app/scripts/filters/timeago.js"></script>
+
+		
+	
+	
+      <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+
+<!--services-->
+    <script src="app/scripts/services/questionsservice.js"></script>
+    <script src="app/scripts/services/question_templates.js"></script>
+    <script src="app/scripts/services/global_images.js"></script>
+    <script src="app/scripts/services/linearnavigation.js"></script>
+    <script src="app/scripts/services/messages.js"></script>
+    <script src="app/scripts/services/comments.js"></script>
+    <script src="app/scripts/services/relationships.js"></script>
+    <script src="app/scripts/services/profile.js"></script>
+    <script src="app/scripts/services/communities.js"></script>
+    <script src="app/scripts/services/groups.js"></script>
+
+      <!--values-->
+      <script src="app/scripts/services/global_images_list.js"></script>
+      <script src="app/scripts/services/question_types.js"></script>
+      <script src="app/scripts/services/categories.js"></script>
+      <script src="app/scripts/services/animationtoggler.js"></script>
+      <script src="app/scripts/services/question_type_translator.js"></script>
+      <script src="app/scripts/services/api/configs.js"></script>
+      <script src="app/scripts/services/api/xhrhandler.js"></script>
+      <script src="app/scripts/services/general_nterceptor.js"></script>
+
+      <script src="app/scripts/services/api/instances.js"></script>
+      <script src="app/scripts/services/api/users.js"></script>
+      <script src="app/scripts/services/api/enpoints/user.js"></script>
+      <script src="app/scripts/services/api/enpoints/comments.js"></script>
+      <script src="app/scripts/services/api/enpoints/relationships.js"></script>
+      <script src="app/scripts/services/api/enpoints/profile.js"></script>
+      <script src="app/scripts/services/api/enpoints/communities.js"></script>
+      <script src="app/scripts/services/api/enpoints/groups.js"></script>
+      <script src="app/scripts/services/api/enpoints/messages.js"></script>
+
+      <script src="app/scripts/services/values/categories_list.js"></script>
+      <script src="app/scripts/services/values/questionsfeedlist.js"></script>
+      <script src="app/scripts/services/values/instanceslist.js"></script>
+      <script src="app/scripts/services/values/unreaded_messages.js"></script>
+      <script src="app/scripts/services/values/question_type_translator.js"></script>
+      <script src="app/scripts/services/values/question_answering_response.js"></script>
+      <script src="app/scripts/services/values/comments_for_question.js"></script>
+      <script src="app/scripts/services/values/questions_answered_list.js"></script>
+      <script src="app/scripts/services/values/commented_questions.js"></script>
+      <script src="app/scripts/services/values/selected_question_response.js"></script>
+
+      <script src="app/scripts/services/cssbreakpoints.js"></script>
+
+      <!--directives-->
+    <script src="app/scripts/directives/questions/response.js"></script>
+    <script src="app/scripts/directives/posted_question_badge.js"></script>
+    <script src="app/scripts/directives/image_handler.js"></script>
+    <script src="app/scripts/directives/questions/types/responses/text.js"></script>
+    <script src="app/scripts/directives/questions/types/responses/choice_selection_question.js"></script>
+
+    <script src="app/scripts/directives/questions/stats.js"></script>
+    <script src="app/scripts/directives/questions/types/stats/choice_selection_question_stats.js"></script>
+    <script src="app/scripts/directives/questions/types/stats/text_stats.js"></script>
+    <script src="app/scripts/directives/questions/types/stats/sortable_stats.js"></script>
+
+    <script src="app/scripts/directives/questions/new_question.js"></script>
+    <script src="app/scripts/directives/questions/types/new_questions/text.js"></script>
+    <script src="app/scripts/directives/questions/types/new_questions/choice_selection_question.js"></script>
+    <script src="app/scripts/directives/questions/types/new_questions/sortable.js"></script>
+    <script src="app/scripts/directives/answer_question_action_bar.js"></script>
+    <script src="app/scripts/directives/progress_indicator.js"></script>
+    <script src="app/scripts/directives/notification_box.js"></script>
+    <script src="app/scripts/directives/messages_count.js"></script>
+    <script src="app/scripts/directives/dml_img_crop.js"></script>
+
+    <script src="app/scripts/directives/keep-centered.js"></script>
+    <script src="app/scripts/directives/text_area_placeholder.js"></script>
+    <script src="app/scripts/directives/uploader.js"></script>
+    <script src="app/scripts/directives/questions/types/responses/sortable.js"></script>
+
+    <script src="app/scripts/directives/comments_handler.js"></script>
+	
+	<script src="app/scripts/directives/datepicker.js"></script>
+
+    <!--Statisfy-->
+    <script src="app/scripts/services/api/enpoints/questions.js"></script>
+
+
+	
+
+
+      <!-- your app's js -->
+      <script src="js/app.js"></script>
+      <script src="js/controllers.js"></script>
+    <!--vendor-->
+
+    <!--owned-->
+   <!-- shareaholic-->
+      <script type="text/javascript">
+          //<![CDATA[
+          (function() {
+              var shr = document.createElement('script');
+              shr.setAttribute('data-cfasync', 'false');
+              shr.src = '//dsms0mj1bbhn4.cloudfront.net/assets/pub/shareaholic.js';
+              shr.type = 'text/javascript'; shr.async = 'true';
+              shr.onload = shr.onreadystatechange = function() {
+                  var rs = this.readyState;
+                  if (rs && rs != 'complete' && rs != 'loaded') return;
+                  var site_id = 'dce7a7fc87a3f498359f8104db25130a';
+                  try { Shareaholic.init(site_id); } catch (e) {}
+              };
+              var s = document.getElementsByTagName('script')[0];
+              s.parentNode.insertBefore(shr, s);
+          })();
+          //]]>
+      </script>
+
+
+
+  </head>
+
+  <body ng-app="starter">
+    <ion-nav-view class="ng-cloak"></ion-nav-view>
+  </body>
+</html>

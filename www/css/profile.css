@@ -1,0 +1,157 @@
+#profile_background{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#profile_background #user_sumary_bar{
+    margin-bottom:4px;
+    padding-bottom:5px;
+    margin-top:30px
+}
+
+#profile_background #user_sumary_bar .button {
+    color: white;
+    text-shadow: 0 0 6px black;
+}
+
+#profile_background #user_sumary_bar .button:nth-child(2n){
+    border-left-style: solid;
+    border-left-color:white;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-color:white;
+    border-right-width: 1px;
+}
+.user_profile_buttons_bar .button{
+    padding:0 !important;
+    height:auto !important;
+    min-height:0 !important;
+    max-height:100% !important;
+    line-height:1.4em !important;
+    text-align:center !important;
+    padding-top:5px !important;
+    padding-bottom:5px !important;
+
+}
+.user_profile_buttons_bar .button .icon:before{
+    line-height:1.2em;
+    font-size:3rem;
+
+}
+.user_profile_buttons_bar .button div{
+    font-size:0.7rem;
+    text-align:center;
+}
+
+ .tab-buttons-bar .button.tab-button:not(.button-positive){
+    border-bottom-color:transparent;
+}
+
+ .tab-buttons-bar .button.tab-button{
+    border-bottom-width:4px;
+    border-left-color:transparent !important;
+    border-right-color: transparent !important;
+    border-top-color: #bbb !important;
+    padding-right:0;
+    padding-left:0;
+}
+
+#communities_screen_bundle .button.tab-button{
+    font-size:0.6rem;
+}
+
+
+ .tab-buttons-bar .button.tab-button{
+    border-radius:0;
+}
+ .tab-buttons-bar .button.tab-button:nth-child(2n){
+    border-left: solid 1px #bbb !important;
+    border-right: solid 1px #bbb !important;
+
+}
+.tab-buttons-bar .button.tab-button:last-of-type{
+    border-right-color: transparent !important;
+
+}
+.tab-buttons-bar .button.tab-button:first-of-type{
+    border-left-color: transparent !important;
+
+}
+
+.darkroom-toolbar{
+    position:static !important;
+}
+.darkroom-toolbar:before{
+    content:none !important;
+}
+
+[class^="darkroom-icon-"]:before, [class*=" darkroom-icon-"]:before{
+    font-family:"FontAwesome" !important;
+    color:white;
+    font-size:1.4rem;
+}
+i.darkroom-icon-rotate-right:before{
+    content:'\f01e' !important;
+}
+i.darkroom-icon-rotate-left:before{
+    content:'\f0e2' !important;
+}
+i.darkroom-icon-crop:before{
+    content:'\f125' !important;
+}
+i.darkroom-icon-back:before{
+    content:'\f112' !important;
+}
+
+i.darkroom-icon-accept:before{
+    color:green;
+    content:'\f00c' !important;
+}
+i.darkroom-icon-cancel:before{
+    color:red;
+    content:'\f00d' !important;
+}
+i.darkroom-icon-save:before{
+    content:'\f0c7' !important;
+}
+
+.darkroom-button-group{
+    height: 40px !important;
+    line-height: 40px !important;
+    display: inline-block !important;
+}
+
+.darkroom-button-group .darkroom-button{
+    vertical-align: middle;
+}
+
+.darkroom-image-container .canvas-container{
+    display:block;
+    margin:auto;
+}
+
+.anonymous-user-bubble{
+    position: absolute;
+    font-size: 0.8rem;
+    width: 121px;
+    height: 100px;
+    left: -124px;
+    text-align: center;
+    line-height: 1.2em;
+    border-radius: 10px;
+}
+
+.anonymous-user-bubble:after{
+    width: 0;
+    border-width: 20px;
+    height: 0;
+    border-style: solid;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    right: -40px;
+    border-color: transparent;
+    border-left-color: inherit;
+    content: ' ';
+}

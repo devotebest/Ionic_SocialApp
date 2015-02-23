@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?> 
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <font id="darkroom" horiz-adv-x="120">
+    <font-face font-family="darkroom"
+      units-per-em="512" ascent="448"
+      descent="64" />
+    <missing-glyph horiz-adv-x="0" />
+    <glyph glyph-name="accept"
+      unicode="&#xF101;"
+      horiz-adv-x="512" d=" M354.1333333333333 -358.4L336.4608 -340.7189333333333L154.112 -524.7146666666666L70.78399999999998 -441.856L53.11999999999998 -459.5626666666667L154.23999999999995 -560.0853333333333L171.94666666666663 -542.4213333333335L171.86133333333328 -542.336L354.1333333333333 -358.4z" />
+  </font>
+</defs>
+</svg>

@@ -1,0 +1,188 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "webapp";
+  src:url("fonts/webapp.eot");
+  src:url("fonts/webapp.eot?#iefix") format("embedded-opentype"),
+    url("fonts/webapp.woff") format("woff"),
+    url("fonts/webapp.ttf") format("truetype"),
+    url("fonts/webapp.svg#webapp") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-statisfycon]:before {
+  font-family: "webapp" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="statisfycon-"]:before,
+[class*=" statisfycon-"]:before {
+  font-family: "webapp" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.statisfycon-account-communities-blue:before {
+  content: "a";
+}
+.statisfycon-account-followers-blue:before {
+  content: "b";
+}
+.statisfycon-account-following-blue:before {
+  content: "c";
+}
+.statisfycon-account-notifications-blue:before {
+  content: "d";
+}
+.statisfycon-account-questions-blue:before {
+  content: "e";
+}
+.statisfycon-answers-icon:before {
+  content: "f";
+}
+.statisfycon-arrow-down-orange:before {
+  content: "g";
+}
+.statisfycon-arrow-half-blue:before {
+  content: "h";
+}
+.statisfycon-arrow-left:before {
+  content: "i";
+}
+.statisfycon-arrow-right:before {
+  content: "j";
+}
+.statisfycon-arrow-right-white-big:before {
+  content: "k";
+}
+.statisfycon-close-blue:before {
+  content: "l";
+}
+.statisfycon-comment-icon:before {
+  content: "m";
+}
+.statisfycon-prioritizer-arrow:before {
+  content: "n";
+}
+.statisfycon-post-sharing-share:before {
+  content: "o";
+}
+.statisfycon-post-sharing-answer:before {
+  content: "p";
+}
+.statisfycon-plus-statisfycon-blue:before {
+  content: "q";
+}
+.statisfycon-photo-camera:before {
+  content: "r";
+}
+.statisfycon-notifications-bubble:before {
+  content: "s";
+}
+.statisfycon-more-options-icon:before {
+  content: "t";
+}
+.statisfycon-minus-icon:before {
+  content: "u";
+}
+.statisfycon-menu-icon:before {
+  content: "v";
+}
+.statisfycon-lock:before {
+  content: "w";
+}
+.statisfycon-i-information:before {
+  content: "x" !important;
+  cursor:pointer;
+}
+.statisfycon-home-icon:before {
+  content: "y";
+}
+.statisfycon-cross-white:before {
+  content: "z";
+}
+.statisfycon-profile-picture:before {
+  content: "A";
+}
+.statisfycon-question-background-1:before {
+  content: "B";
+}
+.statisfycon-question-type-multiplechoice:before {
+  content: "C";
+}
+.statisfycon-question-type-openended:before {
+  content: "D";
+}
+.statisfycon-question-type-pickone:before {
+  content: "E";
+}
+.statisfycon-question-type-picktwo:before {
+  content: "F";
+}
+.statisfycon-question-type-prioritizer:before {
+  content: "G";
+}
+.statisfycon-question-type-yesno:before {
+  content: "H";
+}
+.statisfycon-reload-orange:before {
+  content: "I";
+}
+.statisfycon-reply-icon:before {
+  content: "J";
+}
+.statisfycon-reply-statisfycon-pressed:before {
+  content: "K";
+}
+.statisfycon-share-icon:before {
+  content: "L";
+}
+.statisfycon-side-menu-ask:before {
+  content: "M";
+}
+.statisfycon-yes-no-slider:before {
+  content: "N";
+}
+.statisfycon-unlock:before {
+  content: "O";
+}
+.statisfycon-undo-icon:before {
+  content: "P";
+}
+.statisfycon-top-write:before {
+  content: "Q";
+}
+.statisfycon-statisfy-logo:before {
+  content: "R";
+}
+.statisfycon-side-menu-profile:before {
+  content: "S";
+}
+.statisfycon-side-menu-logout:before {
+  content: "T";
+}
+.statisfycon-side-menu-invite:before {
+  content: "U";
+}
+.statisfycon-side-menu-home:before {
+  content: "V";
+}
+.statisfycon-side-menu-communities:before {
+  content: "W";
+}

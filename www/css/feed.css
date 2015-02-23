@@ -1,0 +1,117 @@
+.avatar-holder{
+    border-radius: 50%;
+    border: solid 2px white;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+question-posted-badge .avatar-holder{
+    width: 60px;
+    height: 60px;
+    margin-top: -25px;
+    position: absolute;
+    z-index:10000000;
+}
+
+question-posted-badge h3{
+    font-size:14px;
+}
+question-posted-badge h4{
+    font-size:12px;
+}
+
+
+ion-side-menu.bar{
+    border:none;
+}
+
+ion-side-menu.bar ion-item .icon:before{
+    width: 3rem;
+    text-align: center;
+    font-size: 3rem;
+}
+ion-side-menu.bar ion-item .icon{
+    position:absolute;
+    top: 50%;
+    margin-top: -1.5rem;
+    left:-3.2rem;
+}
+
+ion-side-menu.bar ion-item,
+ion-side-menu.bar ion-item .item-content{
+    background-color:transparent;
+    border-bottom:none;
+    color:white;
+    border-left:none;
+    padding-left:0;
+    overflow:visible;
+}
+
+ion-side-menu.bar ion-item{
+    margin-left:70px;
+    position:relative;
+
+
+}
+
+ion-side-menu.bar ion-content{
+    top:130px;
+}
+
+ion-side-menu.bar ion-item:first-of-type{
+    border-top:none;
+}
+
+ion-side-menu.bar header, ion-side-menu.bar header h1.title{
+    height:130px;
+    border:none;
+
+}
+
+ion-side-menu.bar header .avatar-holder{
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    border-color: #145fd7;
+
+}
+.question-info-bar{
+    padding-top:0 !important;
+    padding-bottom:0 !important;
+}
+.question-info-bar>.col{
+    text-align:center;
+    font-size:0.8rem;
+    line-height:1.6rem;
+    vertical-align: middle;
+    color:gray;
+}
+.question-info-bar>.col *{
+    vertical-align:middle;
+}
+.question-info-bar>.col .icon{
+    font-size:1.6rem;
+    vertical-align:middle;
+}
+.question-info-bar>.col .icon:before{
+    font-size:1.8rem !important;
+}
+.question-info-bar>.col .big.icon:before{
+    font-size:2.4rem !important;
+}
+.question-info-bar>.col .follow-button{
+    width:100%;
+}
+.question-info-bar>.col:not(:first-of-type) img{
+    width:25px;
+    vertical-align:middle;
+
+}
+
+ion-item.question-list-item.item{
+    padding:0;
+}

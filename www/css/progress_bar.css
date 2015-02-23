@@ -1,0 +1,38 @@
+.dml-progress-bar{
+    padding:0 !important;
+    position:relative;
+}
+.dml-progress-bar>div.button{
+    width: 1%;
+    padding: 0;
+    min-width: 0;
+    padding:0;
+}
+.dml-progress-bar>div.button:first-of-type{
+    border-radius: 4px 0 0 4px;
+}
+.dml-progress-bar>div.button{
+    border-radius: 0 4px 4px 0;
+}
+
+.dml-progress-bar .progress-bar-title, .dml-progress-bar .progress-indicator{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin:0;
+    padding:0;
+    top:50%;
+    margin-top:-0.5em;
+
+}
+.dml-progress-bar .progress-indicator.with-title{
+    right:30px;
+    left:auto;
+    width:auto;
+}
+
+.dml-progress-bar .button{
+    transition:width 0.5s;
+}

@@ -1,0 +1,104 @@
+form[name="loginForm"] label{
+    margin-top:25px;
+    border: solid 1px lightsteelblue !important;
+}
+
+form[name="signupForm"] label{
+    margin-top: 20px;
+}
+
+form[name="signupForm"] label.item-input-wrapper,form[name="signupForm"] label.item input{
+    margin-top:20px;
+    border-style: solid !important;
+    border-width: 1px !important;
+    background-color:transparent;
+}
+form[name="signupForm"] label.item input{
+    margin-top:0px;
+    border-radius:4px;
+}
+form[name="signupForm"] label.item span {
+    padding: 0;
+    width: 25%;
+}
+.form-info-icon:before{
+    font-size: 2rem;
+}
+form[name="signupForm"] div.item .form-info-icon:before{
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-left: 7px;
+}
+
+form[name="signupForm"] div.item .form-info-icon:not(.cero-margin):before{
+    margin-top: 20px;
+}
+
+
+form[name="loginForm"] input{
+    color:white !important;
+}
+form[name="signupForm"] input{
+    color:inherit !important;
+}
+
+
+form input{
+    box-shadow: none !important;
+    border:none !important;
+    outline: none !important;
+}
+
+form input::-webkit-input-placeholder {
+    color: currentColor;
+}
+
+form input:-moz-placeholder { /* Firefox 18- */
+    color: currentColor;
+}
+
+form input::-moz-placeholder {  /* Firefox 19+ */
+    color: currentColor;
+}
+
+form input:-ms-input-placeholder {
+    color: currentColor;
+}
+
+.flip-navigation{
+
+
+}
+.flip-navigation .scroll{
+    perspective: 1000px !important;
+    transform-style:preserve-3d !important;
+    height:100%;
+}
+
+.flip-navigation .scroll ui-view>div{
+    min-height:100%;
+}
+
+
+.flip-navigation ui-view.ng-enter,.flip-navigation ui-view.ng-leave{
+    position:absolute;
+    transition: all 0.35s linear;
+    width:100%;
+    height:100%;
+    backface-visibility: hidden;
+
+}
+.flip-navigation ui-view.ng-enter{
+    transition: all 0.35s  0.35s linear;
+    transform: rotateY(-90deg);
+}
+.flip-navigation ui-view.ng-enter.ng-enter-active{
+    transform: rotateY(0deg);
+}
+
+.flip-navigation ui-view.ng-leave{
+    transform: rotateY(0deg);
+}
+.flip-navigation ui-view.ng-leave.ng-leave-active{
+    transform: rotateY(90deg);
+}

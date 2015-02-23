@@ -1,0 +1,47 @@
+.notification-summary-info{
+    transition: all 0.4s;
+    max-width:100%;
+    flex:1 !important;
+    line-height:38px;
+    vertical-align:middle;
+    display:inline-block;
+}
+.notification-summary-info.ng-leave,
+.notification-delete-button.ng-leave,
+.notification-undelete-button.ng-leave{
+    display:none;
+}
+.notification-summary-info.col-80{
+    max-width:70%;
+}
+
+.notification-delete-button{
+
+    transition: all 0.4s;
+    max-width:30%;
+    display:inline-block;
+}
+.notification-delete-button.ng-hide{
+    max-width:0;
+    min-width:0;
+    padding:0;
+    border-width:0;
+    display:flex !important;
+
+}
+/*
+.notification-delete-button.ng-hide-add,
+.notification-delete-button.ng-hide-remove{
+    transition: all 0.4s;
+    display: block !important;
+
+}
+
+.notification-delete-button.ng-hide-add.ng-hide-add-active,
+.notification-delete-button.ng-hide-remove{
+    max-width:0;
+    min-width:0;
+    padding:0;
+
+}
+*/
